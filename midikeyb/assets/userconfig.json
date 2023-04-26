@@ -1,0 +1,40 @@
+{
+	/* Uncomment the lines where appropriate. The values given are the default values*/
+
+	//  midi channel (a number between 1 and 16), or "ALL" to accept data from all channels
+	"midichannel" : "ALL",
+
+	// Midi devices (or * to match all)
+	"midiports" : ["*"],
+
+	//  CC -- used to change the main gain 
+	// "CC_gainchange" : 7,
+
+	//  CC -- sensibility to noteon velocity
+	// "CC_sensibility" : 93,
+
+	// "CC_sustain" : 64,
+
+	//  CC -- speed rate.
+	// "CC_ratefactor" : 91,
+
+	/*	CC -- compress signal. 127=compressed signal 0=uncrompressed */
+	// "CC_compressor" : 81,
+
+	/*  CC -- 0=no randomness 127=maximal randomness */
+	// "CC_randomness" : 82,
+
+	// "ratefactor_max" : 5,
+	// "rategactor_min" : 0.5,
+
+	// "mingain_db" : -80, 
+	// "maxgain_db" : 0,
+
+	/*  The maximum and minimum volume a note can have in response to velocity. it will be modified by the gain   */
+	// "noteon_max_db" : 0,
+	// "noteon_min_db"	: -30,
+
+	/* The exponential curve used for the volume pedal. 1=linear */
+	"volpedal_curve" : 0.3,
+
+}

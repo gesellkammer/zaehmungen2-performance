@@ -1,0 +1,44 @@
+{
+	"midichannel" : "ALL",
+
+	"midiports" : ["*"],
+
+	// CC used to change the main gain
+	"CC_gainchange" : 7,
+
+	// CC used for sustain pedal
+	"CC_sustain" : 64,
+
+	// sensibility to noteon velocity
+	"CC_sensibility" : 93,
+
+	// speed rate.
+	"CC_ratefactor" : 91,
+
+	// 127=compressed signal 0=uncrompressed
+	"CC_compressor" : 81,
+
+	// 0=no randomness 127=maximal randomness
+	"CC_randomness" : 82,
+
+	"ratefactor_max" : 5,
+	"rategactor_min" : 0.5,
+
+	// The minimum value for gain, when the MOD-WHEEL is all the way down
+	"mingain_db" : -80, 
+
+	// The max value for gain (MOD-WHEEL all the way up)
+	"maxgain_db" : 0,
+
+	// the maximum and minimum volume a note can have. it will be modified by the gain
+	"noteon_max_db" : 0,
+	"noteon_min_db"	: -30,
+
+	"default_midichannel": 0,
+	"allow_kbd_rate_factor_change": false,
+	"save_last_state" : true,
+	"compression" : 0.2,
+	"randomness" : 0.35,
+	"volpedal_curve" : 1
+	
+}
